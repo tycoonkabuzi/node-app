@@ -1,12 +1,15 @@
 const path = require("path");
 const filename = path.basename(__dirname + "/tmp/index.html");
 const filenameNoEdt = path.basename(__dirname + "/tmp/index.html", ".html");
-console.log(filename);
-console.log(filenameNoEdt);
+// console.log(filename);
+// console.log(filenameNoEdt);
 
 const dirname = path.dirname(__dirname + "/tmp/index.html");
-console.log(dirname);
+// console.log(dirname);
 const ext = path.extname("/tmp/index.html");
-console.log(ext);
+// console.log(ext);
 const patseFile = path.parse(__dirname + "/tmp/index.html");
-console.log(patseFile);
+// console.log(patseFile);
+
+const newPath = path.join(__dirname, "tmp");
+console.log(newPath);

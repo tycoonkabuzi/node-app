@@ -1,0 +1,36 @@
+
+ [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "role": "admin",
+      "active": true,
+      "preferences": {
+        "theme": "dark",
+        "notifications": true
+      }
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "email": "bob.smith@example.com",
+      "role": "editor",
+      "active": true,
+      "preferences": {
+        "theme": "light",
+        "notifications": false
+      }
+    },
+    {
+      "id": 3,
+      "name": "Charlie Davis",
+      "email": "charlie.davis@example.com",
+      "role": "viewer",
+      "active": false,
+      "preferences": {
+        "theme": "dark",
+        "notifications": true
+      }
+    }
+  ]
