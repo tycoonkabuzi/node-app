@@ -1,5 +1,0 @@
-name: Clementina DuBuque
-                    street: Kattie Turnpike
-                    Zip Code:31428-2261
-                    city:Lebsackbury
-                    phone: 024-648-3804
