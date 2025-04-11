@@ -5,3 +5,8 @@ notifications.emit("orderPlaced", {
   email: "kabuziNtwali@gmail.com",
   phone: "+4812345656",
 });
+
+notifications.emit("userRegistered", {
+  name: "Tycoon",
+  email: "Kabuzitycoon@gmail.com",
+});
